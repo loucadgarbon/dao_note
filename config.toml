@@ -1,0 +1,27 @@
+baseURL = "https://daonotes.dev/"
+languageCode = "zh-tw"
+title = "Dao Notes"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+[params]
+  ShowReadingTime = true
+  ShowToc = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowSidebar = true
+  ShowRecent = true
+  ShowCategories = true
+  ShowTags = true
+  defaultTheme = "auto"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "關於"
+    url = "/about/"
+    weight = 1

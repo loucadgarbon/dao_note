@@ -1,4 +1,4 @@
-baseURL = "https://daonotes.dev/"
+baseURL = "https://daonote.dev/"
 languageCode = "zh-tw"
 title = "Dao Notes"
 theme = "PaperMod"
